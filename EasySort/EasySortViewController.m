@@ -19,9 +19,11 @@
 {
     [super viewDidLoad];
     NSLog(@"hehehehehhhehehehe");
-    NSLog(@"hehehehehhhehehehe");
-    
+    NSMutableArray *nums = [NSMutableArray arrayWithObjects:@"13.2", @"-12.2", @"113.2", @"13", @"-13.2", nil];
 	// Do any additional setup after loading the view, typically from a nib.
+    [SortAlgorithm BubbleSort:nums];
+    
+    NSLog(@"%@  %f",nums, [nums[nums.count - 1] floatValue]);
 }
 
 - (void)didReceiveMemoryWarning

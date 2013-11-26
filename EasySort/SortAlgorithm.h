@@ -10,4 +10,8 @@
 
 @interface SortAlgorithm : NSObject
 
+
++ (void)BubbleSort1:(NSMutableArray *)nums;
++ (void)BubbleSort:(NSMutableArray *)nums;
+
 @end
