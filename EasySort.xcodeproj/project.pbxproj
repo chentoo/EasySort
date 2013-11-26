@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98EF17B918443C6F003E9280 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EF17B818443C6F003E9280 /* Foundation.framework */; };
+		98EF17BB18443C6F003E9280 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EF17BA18443C6F003E9280 /* CoreGraphics.framework */; };
+		98EF17BD18443C6F003E9280 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EF17BC18443C6F003E9280 /* UIKit.framework */; };
+		98EF17C318443C6F003E9280 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98EF17C118443C6F003E9280 /* InfoPlist.strings */; };
+		98EF17C518443C6F003E9280 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EF17C418443C6F003E9280 /* main.m */; };
+		98EF17C918443C6F003E9280 /* EasySortAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EF17C818443C6F003E9280 /* EasySortAppDelegate.m */; };
+		98EF17CC18443C6F003E9280 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EF17CA18443C6F003E9280 /* Main_iPhone.storyboard */; };
+		98EF17CF18443C6F003E9280 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 98EF17CD18443C6F003E9280 /* Main_iPad.storyboard */; };
+		98EF17D218443C6F003E9280 /* EasySortViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EF17D118443C6F003E9280 /* EasySortViewController.m */; };
+		98EF17D418443C6F003E9280 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98EF17D318443C6F003E9280 /* Images.xcassets */; };
+		98EF17DB18443C6F003E9280 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EF17DA18443C6F003E9280 /* XCTest.framework */; };
+		98EF17DC18443C6F003E9280 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EF17B818443C6F003E9280 /* Foundation.framework */; };
+		98EF17DD18443C6F003E9280 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98EF17BC18443C6F003E9280 /* UIKit.framework */; };
+		98EF17E518443C6F003E9280 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98EF17E318443C6F003E9280 /* InfoPlist.strings */; };
+		98EF17E718443C6F003E9280 /* EasySortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EF17E618443C6F003E9280 /* EasySortTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98EF17DE18443C6F003E9280 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98EF17AD18443C6F003E9280 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98EF17B418443C6F003E9280;
+			remoteInfo = EasySort;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98EF17B518443C6F003E9280 /* EasySort.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasySort.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98EF17B818443C6F003E9280 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		98EF17BA18443C6F003E9280 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		98EF17BC18443C6F003E9280 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		98EF17C018443C6F003E9280 /* EasySort-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasySort-Info.plist"; sourceTree = "<group>"; };
+		98EF17C218443C6F003E9280 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98EF17C418443C6F003E9280 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		98EF17C618443C6F003E9280 /* EasySort-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EasySort-Prefix.pch"; sourceTree = "<group>"; };
+		98EF17C718443C6F003E9280 /* EasySortAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasySortAppDelegate.h; sourceTree = "<group>"; };
+		98EF17C818443C6F003E9280 /* EasySortAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasySortAppDelegate.m; sourceTree = "<group>"; };
+		98EF17CB18443C6F003E9280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		98EF17CE18443C6F003E9280 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		98EF17D018443C6F003E9280 /* EasySortViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasySortViewController.h; sourceTree = "<group>"; };
+		98EF17D118443C6F003E9280 /* EasySortViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasySortViewController.m; sourceTree = "<group>"; };
+		98EF17D318443C6F003E9280 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		98EF17D918443C6F003E9280 /* EasySortTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasySortTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98EF17DA18443C6F003E9280 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		98EF17E218443C6F003E9280 /* EasySortTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EasySortTests-Info.plist"; sourceTree = "<group>"; };
+		98EF17E418443C6F003E9280 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		98EF17E618443C6F003E9280 /* EasySortTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasySortTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98EF17B218443C6F003E9280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EF17BB18443C6F003E9280 /* CoreGraphics.framework in Frameworks */,
+				98EF17BD18443C6F003E9280 /* UIKit.framework in Frameworks */,
+				98EF17B918443C6F003E9280 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EF17D618443C6F003E9280 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EF17DB18443C6F003E9280 /* XCTest.framework in Frameworks */,
+				98EF17DD18443C6F003E9280 /* UIKit.framework in Frameworks */,
+				98EF17DC18443C6F003E9280 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98EF17AC18443C6F003E9280 = {
+			isa = PBXGroup;
+			children = (
+				98EF17BE18443C6F003E9280 /* EasySort */,
+				98EF17E018443C6F003E9280 /* EasySortTests */,
+				98EF17B718443C6F003E9280 /* Frameworks */,
+				98EF17B618443C6F003E9280 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98EF17B618443C6F003E9280 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98EF17B518443C6F003E9280 /* EasySort.app */,
+				98EF17D918443C6F003E9280 /* EasySortTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98EF17B718443C6F003E9280 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98EF17B818443C6F003E9280 /* Foundation.framework */,
+				98EF17BA18443C6F003E9280 /* CoreGraphics.framework */,
+				98EF17BC18443C6F003E9280 /* UIKit.framework */,
+				98EF17DA18443C6F003E9280 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		98EF17BE18443C6F003E9280 /* EasySort */ = {
+			isa = PBXGroup;
+			children = (
+				98EF17C718443C6F003E9280 /* EasySortAppDelegate.h */,
+				98EF17C818443C6F003E9280 /* EasySortAppDelegate.m */,
+				98EF17CA18443C6F003E9280 /* Main_iPhone.storyboard */,
+				98EF17CD18443C6F003E9280 /* Main_iPad.storyboard */,
+				98EF17D018443C6F003E9280 /* EasySortViewController.h */,
+				98EF17D118443C6F003E9280 /* EasySortViewController.m */,
+				98EF17D318443C6F003E9280 /* Images.xcassets */,
+				98EF17BF18443C6F003E9280 /* Supporting Files */,
+			);
+			path = EasySort;
+			sourceTree = "<group>";
+		};
+		98EF17BF18443C6F003E9280 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98EF17C018443C6F003E9280 /* EasySort-Info.plist */,
+				98EF17C118443C6F003E9280 /* InfoPlist.strings */,
+				98EF17C418443C6F003E9280 /* main.m */,
+				98EF17C618443C6F003E9280 /* EasySort-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		98EF17E018443C6F003E9280 /* EasySortTests */ = {
+			isa = PBXGroup;
+			children = (
+				98EF17E618443C6F003E9280 /* EasySortTests.m */,
+				98EF17E118443C6F003E9280 /* Supporting Files */,
+			);
+			path = EasySortTests;
+			sourceTree = "<group>";
+		};
+		98EF17E118443C6F003E9280 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				98EF17E218443C6F003E9280 /* EasySortTests-Info.plist */,
+				98EF17E318443C6F003E9280 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98EF17B418443C6F003E9280 /* EasySort */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98EF17EA18443C6F003E9280 /* Build configuration list for PBXNativeTarget "EasySort" */;
+			buildPhases = (
+				98EF17B118443C6F003E9280 /* Sources */,
+				98EF17B218443C6F003E9280 /* Frameworks */,
+				98EF17B318443C6F003E9280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasySort;
+			productName = EasySort;
+			productReference = 98EF17B518443C6F003E9280 /* EasySort.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98EF17D818443C6F003E9280 /* EasySortTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98EF17ED18443C6F003E9280 /* Build configuration list for PBXNativeTarget "EasySortTests" */;
+			buildPhases = (
+				98EF17D518443C6F003E9280 /* Sources */,
+				98EF17D618443C6F003E9280 /* Frameworks */,
+				98EF17D718443C6F003E9280 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98EF17DF18443C6F003E9280 /* PBXTargetDependency */,
+			);
+			name = EasySortTests;
+			productName = EasySortTests;
+			productReference = 98EF17D918443C6F003E9280 /* EasySortTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98EF17AD18443C6F003E9280 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EasySort;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = kodak;
+				TargetAttributes = {
+					98EF17D818443C6F003E9280 = {
+						TestTargetID = 98EF17B418443C6F003E9280;
+					};
+				};
+			};
+			buildConfigurationList = 98EF17B018443C6F003E9280 /* Build configuration list for PBXProject "EasySort" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98EF17AC18443C6F003E9280;
+			productRefGroup = 98EF17B618443C6F003E9280 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98EF17B418443C6F003E9280 /* EasySort */,
+				98EF17D818443C6F003E9280 /* EasySortTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98EF17B318443C6F003E9280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EF17CF18443C6F003E9280 /* Main_iPad.storyboard in Resources */,
+				98EF17D418443C6F003E9280 /* Images.xcassets in Resources */,
+				98EF17CC18443C6F003E9280 /* Main_iPhone.storyboard in Resources */,
+				98EF17C318443C6F003E9280 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EF17D718443C6F003E9280 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EF17E518443C6F003E9280 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98EF17B118443C6F003E9280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EF17C918443C6F003E9280 /* EasySortAppDelegate.m in Sources */,
+				98EF17C518443C6F003E9280 /* main.m in Sources */,
+				98EF17D218443C6F003E9280 /* EasySortViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EF17D518443C6F003E9280 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98EF17E718443C6F003E9280 /* EasySortTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98EF17DF18443C6F003E9280 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98EF17B418443C6F003E9280 /* EasySort */;
+			targetProxy = 98EF17DE18443C6F003E9280 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		98EF17C118443C6F003E9280 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98EF17C218443C6F003E9280 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		98EF17CA18443C6F003E9280 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98EF17CB18443C6F003E9280 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		98EF17CD18443C6F003E9280 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98EF17CE18443C6F003E9280 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		98EF17E318443C6F003E9280 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				98EF17E418443C6F003E9280 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		98EF17E818443C6F003E9280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		98EF17E918443C6F003E9280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		98EF17EB18443C6F003E9280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasySort/EasySort-Prefix.pch";
+				INFOPLIST_FILE = "EasySort/EasySort-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		98EF17EC18443C6F003E9280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasySort/EasySort-Prefix.pch";
+				INFOPLIST_FILE = "EasySort/EasySort-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		98EF17EE18443C6F003E9280 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasySort.app/EasySort";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasySort/EasySort-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "EasySortTests/EasySortTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		98EF17EF18443C6F003E9280 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EasySort.app/EasySort";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EasySort/EasySort-Prefix.pch";
+				INFOPLIST_FILE = "EasySortTests/EasySortTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98EF17B018443C6F003E9280 /* Build configuration list for PBXProject "EasySort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98EF17E818443C6F003E9280 /* Debug */,
+				98EF17E918443C6F003E9280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98EF17EA18443C6F003E9280 /* Build configuration list for PBXNativeTarget "EasySort" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98EF17EB18443C6F003E9280 /* Debug */,
+				98EF17EC18443C6F003E9280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		98EF17ED18443C6F003E9280 /* Build configuration list for PBXNativeTarget "EasySortTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98EF17EE18443C6F003E9280 /* Debug */,
+				98EF17EF18443C6F003E9280 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98EF17AD18443C6F003E9280 /* Project object */;
+}
