@@ -23,6 +23,7 @@
 		98EF17E518443C6F003E9280 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 98EF17E318443C6F003E9280 /* InfoPlist.strings */; };
 		98EF17E718443C6F003E9280 /* EasySortTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EF17E618443C6F003E9280 /* EasySortTests.m */; };
 		98EF17F318443EA9003E9280 /* SortAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EF17F218443EA9003E9280 /* SortAlgorithm.m */; };
+		98EF17F618448327003E9280 /* EasySortArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 98EF17F518448327003E9280 /* EasySortArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		98EF17E618443C6F003E9280 /* EasySortTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasySortTests.m; sourceTree = "<group>"; };
 		98EF17F118443EA9003E9280 /* SortAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortAlgorithm.h; sourceTree = "<group>"; };
 		98EF17F218443EA9003E9280 /* SortAlgorithm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortAlgorithm.m; sourceTree = "<group>"; };
+		98EF17F418448327003E9280 /* EasySortArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasySortArray.h; sourceTree = "<group>"; };
+		98EF17F518448327003E9280 /* EasySortArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasySortArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,6 +165,8 @@
 		98EF17F018443E2D003E9280 /* SortAlgorithm */ = {
 			isa = PBXGroup;
 			children = (
+				98EF17F418448327003E9280 /* EasySortArray.h */,
+				98EF17F518448327003E9280 /* EasySortArray.m */,
 				98EF17F118443EA9003E9280 /* SortAlgorithm.h */,
 				98EF17F218443EA9003E9280 /* SortAlgorithm.m */,
 			);
@@ -268,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				98EF17C918443C6F003E9280 /* EasySortAppDelegate.m in Sources */,
+				98EF17F618448327003E9280 /* EasySortArray.m in Sources */,
 				98EF17F318443EA9003E9280 /* SortAlgorithm.m in Sources */,
 				98EF17C518443C6F003E9280 /* main.m in Sources */,
 				98EF17D218443C6F003E9280 /* EasySortViewController.m in Sources */,

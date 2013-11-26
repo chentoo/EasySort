@@ -7,11 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "EasySortArray.h"
 
 @interface SortAlgorithm : NSObject
 
 
-+ (void)BubbleSort1:(NSMutableArray *)nums;
-+ (void)BubbleSort:(NSMutableArray *)nums;
++ (void)BubbleSort1:(EasySortArray *)nums;
++ (void)BubbleSort:(EasySortArray *)nums;
++ (void)InsertSort1:(EasySortArray *)nums;
++ (void)InsertSort2:(EasySortArray *)nums;
++ (void)InsertSort:(EasySortArray *)nums;
 
 @end

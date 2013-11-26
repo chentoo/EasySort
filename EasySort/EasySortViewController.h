@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "EasySortArray.h"
 
-@interface EasySortViewController : UIViewController
+@interface EasySortViewController : UIViewController <EasySortArrayDelegate>
 
 @end

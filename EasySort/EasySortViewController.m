@@ -19,9 +19,11 @@
 {
     [super viewDidLoad];
     NSLog(@"hehehehehhhehehehe");
-    NSMutableArray *nums = [NSMutableArray arrayWithObjects:@"13.2", @"-12.2", @"113.2", @"13", @"-13.2", nil];
-	// Do any additional setup after loading the view, typically from a nib.
-    [SortAlgorithm BubbleSort:nums];
+//    EasySortArray *nums = [EasySortArray arrayWithObjects:@"13.2", @"-12.2", @"113.2", @"13", @"-13.2", nil];
+    EasySortArray *nums = [[EasySortArray alloc] initWithObjects:@"13.2", @"-12.2", @"113.2", @"13", @"-13.2", nil];
+
+    nums.delegate = self;
+    [SortAlgorithm InsertSort:nums];
     
     NSLog(@"%@  %f",nums, [nums[nums.count - 1] floatValue]);
 }
@@ -30,6 +32,13 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+#pragma mark - EasySortArray Delegate
+
+- (void)easySortArrayDidExchangeObjectAtIndex:(NSInteger)idx1 withObjectAtIndex:(NSInteger)idx2
+{
+    NSLog(@"%i %i", idx1, idx2);
 }
 
 @end
