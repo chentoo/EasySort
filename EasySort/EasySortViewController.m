@@ -7,6 +7,7 @@
 //
 
 #import "EasySortViewController.h"
+#import "SortAlgorithm.h"
 
 @interface EasySortViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
     NSLog(@"hehe");
+    
+    
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
